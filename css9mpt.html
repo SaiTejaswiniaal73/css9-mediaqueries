@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title> Media quries</title>
+    <style>
+        img
+        {
+           width: 150px;
+           height: 150px;
+        }
+       @media screen and (min-width:0px) and (max-width:425px)
+        {
+            .i3,.i2
+            {
+                display: none;
+            }
+        }
+        @media screen and (min-width:426px) and (max-width:768px)
+        {
+            .i1,.i3
+            {
+                display: none;
+            }
+        }
+        @media screen and (min-width:769px)
+        {
+            .i2,.i1
+            {
+                display: none;
+            }
+        } 
+
+    </style>
+</head>
+<body>
+        
+        <img class=i1 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR4vFIz_VgIn3B2seAOOEXp7tPeWkd5s3-MA&s" > 
+        
+    </div>
+    <div>
+        <img class=i2 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-LFOMCXnwIKENNeimBsiCk5x3vTYSKwCUfg&s"> 
+        
+    </div>
+    <div>  
+              <img class=i3 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShcMY25QGFtL6ATQZZ7eN-fqJDsNHdfv2WNQ&s">     
+
+        
+    </div>
+</body>
+</html>
